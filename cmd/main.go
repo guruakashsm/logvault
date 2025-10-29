@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/guruakashsm/logvault/internal/filter"
-	"github.com/guruakashsm/logvault/internal/metrics"
-	"github.com/guruakashsm/logvault/internal/model"
-	"github.com/guruakashsm/logvault/internal/parser"
-	"github.com/guruakashsm/logvault/internal/segmenter"
-	"github.com/guruakashsm/logvault/internal/store"
+	"github.com/guruakashsm/logvault/filter"
+	"github.com/guruakashsm/logvault/metrics"
+	"github.com/guruakashsm/logvault/model"
+	"github.com/guruakashsm/logvault/parser"
+	"github.com/guruakashsm/logvault/segmenter"
+	"github.com/guruakashsm/logvault/store"
 	"github.com/guruakashsm/logvault/utils"
 )
 

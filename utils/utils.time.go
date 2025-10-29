@@ -3,7 +3,7 @@ package utils
 import (
 	"time"
 
-	iError "github.com/guruakashsm/logvault/internal/error"
+	iError "github.com/guruakashsm/logvault/error"
 )
 
 func ParseTime(s string, formats ...string) (*time.Time, error) {
